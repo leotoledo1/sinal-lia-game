@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325b557e079d92f48b87317de776c1ee, type: 3}
+  m_Name: Pistola
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  nome: Pistola
+  dano: 25
+  tirosPorSegundo: 4
+  automatica: 0
+  projeteis: 1
+  spread: 1.2
+  alcance: 60
+  recuo: 1.2
+  liberadaNoInicio: 1
+  spreadMirando: -1
+  fovMira: 0
+  perfura: 0
+  impacto: 0.5
+  tamanhoPente: 12
+  municaoInicial: 0
+  municaoMaxima: 0
+  municaoInfinita: 1
+  tempoRecarga: 1.2
+  corMunicao: {r: 1, g: 0.85, b: 0.2, a: 1}
+  modelo: {fileID: 919132149155446097, guid: c16666c20867339478c52e5eb91363ed, type: 3}
+  posicaoNaMao: {x: 0.0019026656, y: -0.014380235, z: -0.06019641}
+  rotacaoNaMao: {x: -0, y: 0, z: 0}
+  comprimentoModelo: 0.36
+  somTiro: {fileID: 8300000, guid: 7aa283a8ef5d24f4eb3c06252588c259, type: 3}
+  somRecarga: {fileID: 8300000, guid: 1bf7e39968970cb43a1bceb372708080, type: 3}

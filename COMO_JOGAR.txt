@@ -1,0 +1,71 @@
+==============================================
+                SINAL DA LIA
+==============================================
+Jogo de sobrevivência em 3ª pessoa feito para a faculdade.
+Grupo: Fernando, Danillo, Henrique e Leonardo.
+
+COMO ABRIR
+  Dê dois cliques em SinalDaLia.exe (deixe todos os arquivos desta pasta juntos).
+  O jogo abre no menu principal: clique em JOGAR (ou aperte ENTER).
+
+A HISTÓRIA
+  Duas semanas depois do surto, Marcos foi mordido e não virou zumbi: ele é imune.
+  O exército quer o sangue dele pra vacina e vai buscá-lo de helicóptero na Clínica Central em 2 dias.
+  Mas a filha dele, Lia (9 anos), sumiu quando a escola foi evacuada.
+  O walkie-talkie de brinquedo dela chia: "...pai? Você tá aí?"
+  Ache a Lia antes do helicóptero chegar.
+
+O QUE FAZER (o objetivo atual fica sempre no canto de cima da tela)
+  1. DIA 1 ...... Vá até a escola da Lia. Siga a seta amarela na tela e o farol amarelo.
+                  Entre pela porta da frente (E). Lá dentro é escuro: procure pistas,
+                  ache a sala do 4º B (a chave fica na sala dos professores) e pegue
+                  o desenho da Lia na carteira dela. Depois... FUJA pela porta da frente.
+  2. NOITE 1 .... Sobreviva aos zumbis até amanhecer (o relógio aparece no topo).
+  3. DIA 2 ...... Siga o SINAL DO RÁDIO (painel no topo da tela): mais barras verdes = mais perto.
+                  Perto da clínica aparece um farol verde. Feixes de luz vermelha = armas novas.
+                  Dentro da clínica é "quente ou frio": o sinal enche perto da Lia.
+                  Cuidado com cortinas e armários... ela está escondida atrás de algo pesado.
+  4. NOITE FINAL  A Lia te segue. Proteja ela até o helicóptero chegar.
+                  A barra rosa no topo é a vida dela. Se ela morrer, é Game Over.
+  Morreu? Na tela de Game Over use "Tentar de novo": você volta pro começo da fase.
+
+CONTROLES
+  W A S D ............ andar
+  SHIFT .............. correr
+  ESPAÇO ............. pular
+  MOUSE .............. girar a câmera
+  BOTÃO DIREITO ...... mirar (a sniper dá zoom)
+  BOTÃO ESQUERDO ..... atirar
+  R .................. recarregar
+  1 2 3 4 / rodinha .. trocar de arma (pistola, escopeta, rifle, sniper)
+  E .................. pegar / interagir
+  Q .................. usar kit médico
+  ESC ................ pausa (lá tem "Como jogar" e "Opções")
+  ENTER .............. pula as cenas (abertura, reencontro, final)
+  F11 ................ tela cheia / janela
+
+DICAS
+  - Tiro na cabeça dá dano dobrado.
+  - A pistola tem munição infinita. Caixas de munição ficam espalhadas e caem dos zumbis.
+  - Base LARANJA no chão = comida (latas): enche a barra de FOME.
+  - Base VERMELHA no chão = kit médico: guarda até 3 e usa com Q (cura 50).
+  - Com fome você não recupera vida. Com a fome zerada você PERDE vida.
+  - Se o jogo ficar lento: ESC > Opções > Gráficos: LEVE.
+  - Mouse muito rápido ou lento: ESC > Opções > Sensibilidade.
+  - Use um MOUSE de verdade: em notebook o touchpad costuma desligar enquanto você aperta
+    W A S D (o Windows faz isso), e aí parece que a câmera "trava" ao andar.
+
+CRÉDITOS
+  Personagens, zumbis, armas e objetos: "Post Apocalypse Pack" — Quaternius (quaternius.com) — CC-BY
+  Natureza: "Stylized Nature MegaKit" — Quaternius (quaternius.com)
+  Escola e clínica por dentro: "Ultimate House Interior" e "Furniture" — Quaternius (CC0);
+          "Furniture Kit" — Kenney (kenney.nl, CC0)
+  Cidade: "LowpolyStreetPack" e "Pandazole City Town Pack"
+  Sketchfab (CC-BY): "Polyart Zombies with Animations", "Polygonal Modern Weapons Collection 1" e prédios low poly
+  Música: "Despair and Triumph", "Aftermath", "Lost Frontier", "Darkling", "Black Vortex",
+          "Bittersweet", "Heartbreaking" — Kevin MacLeod (incompetech.com)
+          Licensed under Creative Commons: By Attribution 4.0 License (creativecommons.org/licenses/by/4.0/)
+  Helicóptero: "Helicopter" — Zsky (poly.pizza) — CC-BY 3.0 (creativecommons.org/licenses/by/3.0/)
+  Efeitos sonoros: gerados por código no próprio projeto
+  Vozes: gravadas pelo grupo
+  Feito com Unity 6 (URP)

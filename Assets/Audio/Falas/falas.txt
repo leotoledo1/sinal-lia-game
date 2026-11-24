@@ -1,0 +1,52 @@
+# Falas do Sinal da Lia (v1.4): id | personagem | texto falado — na ordem da história
+# Para trocar uma voz pela gravação de vocês: grave um .wav e salve com o MESMO nome (ex.: lia_01.wav) nesta pasta.
+# As vozes são gravações do grupo. Ferramentas\GerarVozes.ps1 (voz do Windows) só cria as que faltam; com -Sobrescrever troca todas.
+# --- DIA 1 ---
+omega_01|Base Ômega|Sobrevivente assintomático, aqui é a Base Ômega. Seu sangue pode ser a chave da vacina. Extração na Clínica Central em dois dias. Sobreviva.
+lia_01|Lia|... pai? Pai, você tá aí? Eu tô com medo...
+marcos_01|Marcos|Lia?! Filha, é o papai! Fala comigo! ... Nada. A escola... ela tava na escola.
+marcos_02|Marcos|Lia?! ... Ninguém aqui fora. A porta da escola tá aberta... vou entrar.
+# --- DIA 1: DENTRO DA ESCOLA (v1.4) ---
+marcos_13|Marcos|Lia? LIA! ... Tá um breu aqui dentro. Calma, Marcos. Uma sala de cada vez.
+marcos_14|Marcos|Essa mochila... é da Lia! O chaveirinho de coelho que eu dei. Lia, quarto ano B... A sala dela!
+marcos_15|Marcos|Trancada! ... A chave deve estar na sala dos professores.
+marcos_16|Marcos|Quarto ano B... achei a chave.
+marcos_03|Marcos|Fomos pro posto do exército... Ela tá viva. Ela tá viva!
+marcos_17|Marcos|Que barulho foi esse? ... Eles tão entrando! Tenho que sair daqui, agora!
+# --- DIA 1: LÁ FORA, DEPOIS DA FUGA ---
+omega_02|Base Ômega|Sobrevivente, as crianças da escola foram levadas pra Clínica Central. Está escurecendo. Aguente até o amanhecer.
+# --- NOITE 1 ---
+marcos_04|Marcos|Escureceu... e eles tão acordando. Aguenta, Marcos. É só uma noite.
+lia_02|Lia|Pai... cê ainda tá aí? Eu contei até mil e você ainda não chegou...
+marcos_05|Marcos|Tô aqui, filha. Aguenta só essa noite. Amanhã eu te busco. Prometo.
+# --- DIA 2 ---
+lia_03|Lia|Pai... os soldados foram embora. Tem muitos deles aqui fora. Eu fiquei quietinha e escondida.
+marcos_06|Marcos|O rádio... quanto menos chiado, mais perto ela tá. Fica escondida, filha. Tô indo.
+omega_03|Base Ômega|Sobrevivente, deixamos armamento no caminho da clínica. Procure a luz vermelha.
+lia_04|Lia|Pai? Tá chiando menos! Cê tá chegando?
+lia_05|Lia|Eu ouvi tiro! É você? Eu tô perto da cruz vermelha!
+# --- DIA 2: DENTRO DA CLÍNICA (v1.4, quente ou frio) ---
+lia_10|Lia|Pai? Cê tá aí fora? Eu tô aqui dentro... escondida. Entra devagar.
+marcos_18|Marcos|Lia? Sou eu, filha. Fala comigo pelo rádio... que eu te acho.
+lia_11|Lia|Pai... conta até três e me acha. Igual esconde-esconde...
+lia_12|Lia|Tá quente, pai... tá muito quente!
+marcos_19|Marcos|Não é aqui...!
+marcos_20|Marcos|Atrás do armário... Lia? Segura, filha!
+# --- REENCONTRO (cena) ---
+lia_06|Lia|Pai! Eu sabia que você vinha!
+marcos_07|Marcos|Lia... graças a Deus. Deixa eu te ver. Você tá machucada?
+lia_07|Lia|Me morderam, pai... mas parou de doer. Eu não virei monstro.
+marcos_08|Marcos|Igual a mim... Você é igual a mim, filha. Fica atrás de mim e não solta.
+# --- NOITE FINAL ---
+marcos_09|Marcos|Base Ômega, aqui é o Marcos. Achei minha filha. Ela também é imune. Nós dois vamos nesse helicóptero.
+omega_04|Base Ômega|... Entendido. Dois imunes. Helicóptero a caminho: dois minutos. Segurem a posição!
+lia_08|Lia|Pai, eles tão vindo de todo lado!
+marcos_10|Marcos|Fica atrás de mim, Lia! Ninguém encosta em você!
+lia_grito|Lia|Pai! Me ajuda!
+omega_05|Base Ômega|Helicóptero chegando! Aguentem mais vinte segundos!
+# --- FINAL (cena) ---
+lia_09|Lia|Pai... a gente vai ficar bem?
+marcos_11|Marcos|Agora vai, filha. Agora vai.
+omega_06|Resgate Um|Base Ômega, aqui é o Resgate Um. Dois imunes a bordo. Repito: dois imunes a bordo. Ainda tem esperança.
+# --- TENTAR DE NOVO (checkpoint) ---
+marcos_12|Marcos|De novo. Dessa vez eu consigo.
