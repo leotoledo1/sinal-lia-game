@@ -1,31 +1,75 @@
-# Sinal da Lia
+SINAL DA LIA
+Projeto de faculdade - Jogo de sobrevivência em 3ª pessoa
+Grupo: Fernando, Danillo, Henrique e Leonardo
 
-Jogo de sobrevivência em 3ª pessoa feito para a faculdade (Unity 6, URP).
-Grupo: Fernando, Danillo, Henrique e Leonardo.
+------------------------------------------------------------
+COMO ABRIR
+------------------------------------------------------------
+Execute o arquivo SinalDaLia.exe (mantenha todos os arquivos da pasta juntos para não dar erro ao carregar). No menu principal, clique em JOGAR ou aperte Enter.
 
-Duas semanas depois do surto, Marcos foi mordido e não virou zumbi: ele é imune, e o exército quer o sangue dele pra vacina.
-O helicóptero chega em 2 dias, mas antes ele precisa achar a filha, Lia, seguindo o sinal do walkie-talkie de brinquedo dela.
+------------------------------------------------------------
+SOBRE O JOGO
+------------------------------------------------------------
+Duas semanas depois do surto, Marcos é mordido, mas acaba descobrindo que é imune. O exército quer o sangue dele para desenvolver uma vacina e marcou o resgate de helicóptero na Clínica Central em dois dias. O problema é que a filha dele, Lia (9 anos), sumiu quando a escola foi evacuada. Depois de ouvir a voz dela chiando no walkie-talkie de brinquedo, Marcos decide ir procurar a filha antes que o resgate chegue.
 
-## Jogar
+------------------------------------------------------------
+COMO JOGAR
+------------------------------------------------------------
+O objetivo atual sempre aparece no canto superior da tela.
 
-Baixe o `SinalDaLia.zip` na aba **Releases**, extraia a pasta inteira e abra `SinalDaLia.exe` (Windows).
-Controles e dicas estão em [COMO_JOGAR.txt](COMO_JOGAR.txt).
+1. Dia 1
+Vá até a escola seguindo a seta amarela na tela e o sinal luminoso amarelo no cenário. Entre pela porta da frente apertando E. Lá dentro é bem escuro: procure pistas, pegue a chave da sala do 4º B na sala dos professores e recolha o desenho da Lia na carteira dela. Depois, saia pela porta da frente.
 
-## Abrir o projeto
+2. Noite 1
+Sobreviva aos ataques dos zumbis até amanhecer. Dá para acompanhar o horário pelo relógio no topo da tela.
 
-1. Unity **6000.6.0f1** (Unity Hub > Add > esta pasta).
-2. Abra a cena `Assets/Scenes/Game.unity` e aperte Play.
-3. Menus úteis em **Sinal da Lia**: Montar Cena (recria a cena), Validar Jogo (teste automático com fotos em `Logs/Fotos`) e Gerar Build Windows (.exe).
+3. Dia 2
+Acompanhe o medidor de sinal do rádio no topo da tela para encontrar a Lia (quanto mais barras verdes, mais perto você está). Perto da clínica aparece um sinalizador verde, e feixes de luz vermelha indicam armas novas pelo mapa. Dentro da clínica, o sinal vai enchendo conforme você se aproxima dela. Procure bem atrás de cortinas e móveis pesados.
 
-Planejamento, histórico de versões e roteiro das falas: [PLANEJAMENTO.md](PLANEJAMENTO.md).
-As vozes ficam em `Assets/Audio/Falas/` (substitua o `.wav` de mesmo nome pela gravação do grupo).
+4. Noite Final
+Com a Lia te seguindo, proteja ela até o helicóptero chegar. A barra rosa no topo mostra a vida dela; se zerar, dá Game Over.
 
-## Créditos
+Obs.: Se morrer, clique em "Tentar de novo" na tela de Game Over para voltar ao início da fase atual.
 
-- Personagens, zumbis, armas e objetos: "Post Apocalypse Pack" e "Stylized Nature MegaKit", Quaternius (quaternius.com), CC-BY
-- Escola e clínica por dentro: "Ultimate House Interior" e "Furniture", Quaternius (CC0); "Furniture Kit", Kenney (kenney.nl, CC0)
-- Cidade: "LowpolyStreetPack" e "Pandazole City Town Pack" (Unity Asset Store: não redistribuir fora deste repositório privado)
-- Sketchfab (CC-BY): "Polyart Zombies with Animations", "Polygonal Modern Weapons Collection 1" e prédios low poly
-- Helicóptero: "Helicopter", Zsky (poly.pizza), CC-BY 3.0
-- Música: Kevin MacLeod (incompetech.com), Creative Commons: By Attribution 4.0
-- Efeitos sonoros e céu: gerados por código no projeto
+------------------------------------------------------------
+CONTROLES
+------------------------------------------------------------
+- W, A, S, D: Andar
+- Shift: Correr
+- Espaço: Pular
+- Mouse: Girar a câmera
+- Botão direito: Mirar (a sniper tem zoom)
+- Botão esquerdo: Atirar
+- R: Recarregar
+- 1, 2, 3, 4 ou scroll do mouse: Trocar de arma (pistola, escopeta, rifle e sniper)
+- E: Pegar itens / interagir
+- Q: Usar kit médico
+- ESC: Pausar (acesso a "Como jogar" e "Opções")
+- Enter: Pular cutscenes (abertura, reencontro e final)
+- F11: Alternar tela cheia / janela
+
+------------------------------------------------------------
+DICAS E OBSERVAÇÕES
+------------------------------------------------------------
+- Tiros na cabeça causam o dobro de dano.
+- A pistola tem munição infinita. Munições para as outras armas ficam espalhadas pelo mapa ou caem dos zumbis.
+- Itens no chão com base laranja são latas de comida e enchem a barra de fome.
+- Itens com base vermelha são kits médicos. Você pode carregar até 3 e usar com Q (recupera 50 de vida).
+- Fique de olho na fome: enquanto estiver com fome, a vida não regenera; se a barra zerar, você começa a perder vida.
+- Se o jogo ficar pesado, vá em ESC > Opções e mude os gráficos para LEVE. A sensibilidade do mouse também pode ser ajustada nesse menu.
+- Recomendamos jogar com um mouse externo. Em muitos notebooks, o Windows bloqueia o touchpad enquanto teclas como WASD estão pressionadas, o que faz parecer que a câmera travou ao andar.
+
+------------------------------------------------------------
+CRÉDITOS
+------------------------------------------------------------
+Desenvolvido na Unity 6 (URP).
+Efeitos sonoros gerados por código no próprio projeto e vozes gravadas pelo grupo.
+
+Assets utilizados:
+- Personagens, zumbis, armas e objetos: "Post Apocalypse Pack" - Quaternius (quaternius.com) [CC-BY]
+- Natureza: "Stylized Nature MegaKit" - Quaternius (quaternius.com) [CC-BY]
+- Escola e clínica (interiores): "Ultimate House Interior" e "Furniture" - Quaternius [CC0]; "Furniture Kit" - Kenney (kenney.nl) [CC0]
+- Cidade: "LowpolyStreetPack" e "Pandazole City Town Pack"
+- Modelos Sketchfab [CC-BY]: "Polyart Zombies with Animations", "Polygonal Modern Weapons Collection 1" e prédios low poly
+- Helicóptero: "Helicopter" - Zsky (poly.pizza) [CC-BY 3.0 - creativecommons.org/licenses/by/3.0/]
+- Músicas: "Despair and Triumph", "Aftermath", "Lost Frontier", "Darkling", "Black Vortex", "Bittersweet" e "Heartbreaking" - Kevin MacLeod (incompetech.com) [CC-BY 4.0 - creativecommons.org/licenses/by/4.0/]
